@@ -1,2 +1,22 @@
-# readmission-risk-orchestrator
-End-to-end hospital readmission risk prediction system using machine learning and data pipelines. Features preprocessing, feature engineering, dimensionality reduction, predictive modeling, and scalable orchestration for clinical decision support.
+
+# 🏥 30-Day Readmission Risk Orchestrator (Advanced)
+
+## Features
+- End-to-end ML pipeline
+- Random Forest + XGBoost
+- Optuna tuning
+- SHAP explainability
+- FastAPI backend
+- Streamlit dashboard
+- Docker ready
+- Logging system
+
+## Run
+pip install -r requirements.txt
+python run_pipeline.py
+
+## API
+uvicorn api.main:app --reload
+
+## Dashboard
+streamlit run dashboard/app.py
